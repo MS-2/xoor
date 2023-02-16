@@ -82,7 +82,7 @@ const Render3D = () => {
 			<button onClick={() => handleColorChange("red")}>red</button>
 			<button onClick={() => handleColorChange("green")}>Green</button>
 			<button onClick={() => handleColorChange("yellow")}>yellow</button>
-			<button onClick={() => handleColorChange("white")}>white</button>
+			<button onClick={() => handleColorChange("white")}>un cambio </button>
 			<p>set any number to change size</p>
 			<input type="number" onChange={(e) => handleScaleChange(e)} />
 		</div>
